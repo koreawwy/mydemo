@@ -1,0 +1,402 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background: fixed;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*   链接栏start*/
+#nav {
+    top: 19px;
+    right: 0;
+    position: absolute;
+    margin-right: 149px;
+    text-align: right;
+    font-size: 13px;
+}
+
+#nav a.navv {
+    margin-left: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+#nav a:hover {
+    color: #2A2FC6;
+}
+
+.xl, .onload {
+    margin: 0 10px;
+    color: #000;
+}
+
+/*对IE10的兼容*/
+.xl {
+    margin-left: -13px \9;
+}
+
+#ss ul {
+    margin-left: -17px \9;
+}
+
+.more {
+    margin-left: -18px \9;
+}
+
+#mm li ul {
+    margin-left: -17px \9;
+}
+
+/*对safari的兼容*/
+.xl {
+[;
+    margin-left: -10px;
+] * margin-left: 1 px; /*对IE6，7兼容*/
+}
+
+.more {
+[;
+    margin-left: -17px;
+] * margin-left: 5 px;
+}
+
+#ss ul {
+[;
+    margin-left: -16px;
+] * margin-top: 20 px;
+}
+
+#mm li ul {
+[;
+    margin-left: -17px;
+] * margin-left: - 60 px;
+}
+
+/*对火狐的兼容*/
+@-moz-document url-prefix() {
+    .xl {
+        margin-left: -14px;
+    }
+    #mm .more {
+        margin-left: -18px;
+    }
+    #mm li ul {
+        margin-left: -16px;
+    }
+    #ss ul {
+        margin-left: -17px;
+    }
+}
+
+/*设置的下拉菜单start*/
+#ss {
+    width: 100px;
+    height: 70px;
+    display: inline;
+    position: absolute;
+    right: 60px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+#ss li {
+    width: 100px;
+    height: 30px
+}
+
+#ss ul {
+    display: none;
+}
+
+#ss li:hover ul {
+    display: block;
+}
+
+/*设置的下拉菜单end*/
+/*更多产品的下拉菜单start*/
+
+#mm {
+    width: 100px;
+    min-height: 600px;
+    position: absolute;
+    right: 8px;
+    margin-top: 18px;
+}
+
+#mm ul {
+    display: none;
+    position: absolute;
+}
+
+#mm ul li {
+    margin: 40px auto;
+    padding: 3px 3px;
+}
+
+#mm li:hover ul {
+    display: block;
+}
+
+.more {
+    color: white;
+    background-color: #3388ff;
+    font-size: 13px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    width: 54px;
+    height: 17px;
+    padding: 3px 0;
+    text-decoration: none;
+}
+
+/*更多产品的下拉菜单end*/
+.header {
+    text-align: center;
+    overflow: hidden;
+    min-height: 200px;
+}
+
+.header img {
+    vertical-align: middle;
+    margin-top: 60px;
+    display: inline-block;
+}
+
+/*form样式*/
+.form {
+    text-align: center;
+}
+
+.con {
+    height: 37px;
+    text-align: center;
+}
+
+.con .bg {
+    width: 500px;
+    height: 37px;
+    display: inline-block;
+    margin: 20px 0 0 -40px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.kw {
+    width: 500px;
+    height: 35px;
+    float: left;
+    overflow: hidden;
+    border: 1px solid #483845;
+    outline: 0;
+    text-indent: 10px;
+    font-size: 20px \0; /*对IE7、8的兼容*/
+    padding-left: 10px \0;
+}
+
+.bg img {
+    cursor: pointer;
+}
+
+.kw:hover {
+    border-color: #999;
+}
+
+.kw:focus {
+    border-color: #3388ff;
+}
+
+i img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.su {
+    width: 100px;
+    height: 37px;
+    color: #fff;
+    font-size: 15px;
+    background-color: #3388ff;
+    text-align: center;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: -3px; /*对IE11的兼容*/
+}
+
+.su:hover {
+    background-color: #3556C6;
+}
+
+/*footer样式*/
+#hold {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.foot {
+    width: 320px;
+    height: 70px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#left, #right {
+    float: left;
+    width: 150px;
+    height: 80px;
+    position: relative;
+    left: 30px;
+}
+
+#l-text, #r-text {
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+}
+
+#l-text p, #r-text p {
+    margin-top: 7px;
+    color: #999999;
+}
+
+#l-text .word, #r-text .word {
+    margin-top: 7px;
+    font-size: small;
+    color: #483B22;
+}
+
+#l-img, #r-img {
+    float: left;
+}
+
+.ff {
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.ff a {
+    color: #999;
+    margin-left: 5px;
+
+}
+
+.ff p {
+    color: #999;
+    font-size: 13px;
+}
+
+/*手机端*/
+#wrapper {
+    display: none;
+}
+
+#wrapper #tel-nav .kw {
+    width: 370px;
+    height: 27px;
+    margin-left: 160px;
+    margin-top: -52px;
+}
+
+#hold-all {
+    width: 768px;
+    height: 200px;
+}
+
+/* 头部start*/
+#tel-nav .con {
+    width: 400px;
+    height: 20px;
+}
+
+#tel-nav .bg i img {
+    right: -25px;
+    top: -47px;
+}
+
+#tel-nav .header img {
+    margin: 10px 200px;
+}
+
+#tel-nav .su {
+    width: 76px;
+    height: 29px;
+    margin-left: 31px;
+    margin-top: -32px;
+
+}
+
+#tel-nav #word {
+    position: absolute;
+    top: 20px;
+    left: 44px;
+}
+
+/* 头部end*/
+.images {
+    position: absolute;
+    top: 228px;
+    left: 228px;
+}
+
+.images a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.images a img {
+    width: 30px;
+    height: 30px;
+}
+
+#wrapper a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.show .images {
+    margin-top: 40px;
+}
+
+.center-1 a img {
+    width: 30px;
+    height: 30px;
+}
+
+.center-1 .images {
+    margin-top: 90px;
+}
+
+.get .images {
+    margin-top: 130px;
+}
+
+.center-2 .images {
+    margin-top: 170px;
+}
+
+.post .images {
+    margin-top: 200px;
+}
+
+/* media*/
+@media only screen and (max-width: 768px) {
+    #wrap {
+        display: none;
+    }
+
+    #wrapper {
+        display: block;
+    }
+}
