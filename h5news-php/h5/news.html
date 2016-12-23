@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=320.1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>百度新闻</title>
+    <link rel="stylesheet" type="text/css" href="./css/news.css">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <div id="toolbar">
+            <div class="toolbar-l">
+                <div class="baidu-btn btn"></div>
+                <div class="user-home btn"></div>
+            </div>
+            <div class="toolbar-r">
+                <div class="baidu-search btn"></div>
+                <div class="baidu-add btn"></div>
+            </div>
+        </div>
+    </header>
+    <div id="index-content">
+        <div id="index-nav">
+            <div class="divider"></div>
+            <div class="nav-content">
+               <ul class="nav-ul">
+                   <li>推荐</li>
+                   <li>百家</li>
+                   <li>本地</li>
+                   <li>更多</li>
+               </ul>
+            </div>
+        </div>
+        <div id="index-sections">
+            <img src="images/1.jpg&fm=36">
+            <a href="">Facebook未来十年规划 扎克伯格专访透露了这7件事</a><br/>
+            <img src="images/2.jpeg&fm=36">
+            <a href="">中国和东盟国家外交部长关于全面有效落实《南海各方行为宣言》的联合声明。</a><br/>
+            <img src="images/3.jpg&fm=36">
+            <a href="">重磅!中国人工智能/机器人/无人机创业公司TOP100</a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript">
+    $(".nav-ul li:nth-child(1)").click(function(){
+        $.get(
+                "php/tuijian.php",
+                function(data){
+                    $("#index-sections").html(data);
+                }
+        )
+    });
+    $(".nav-ul li:nth-child(2)").click(function(){
+        $.get(
+                "php/baijia.php",
+                function(data){
+                   $("#index-sections").html(data);
+                }
+        )
+    });
+    $(".nav-ul li:nth-child(3)").click(function(){
+        $.get(
+                "php/bendi.php",
+                function(data){
+                    $("#index-sections").html(data);
+                }
+        )
+    });
+</script>
+</body>
+</html>

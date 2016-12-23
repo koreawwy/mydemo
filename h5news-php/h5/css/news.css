@@ -1,0 +1,102 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    outline: 0;
+}
+/*mystyle*/
+#toolbar{
+    background: url(http://ns14.bdstatic.com//static/news/webapp/webappandroid/img/bg-news-logo_344ce44.png)  #3e98f0 no-repeat center 6px;
+    background-size: 77px auto;
+    -webkit-background-size: 77px auto;
+    position: relative;
+    min-width: 320px;
+    height: 44px;
+    z-index: 2;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+}
+/*工具栏左边*/
+.toolbar-l{
+    top: 0;
+    left: 0;
+}
+.toolbar-l ,.toolbar-r{
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+}
+.btn{
+    width: 34px;
+    height: 100%;
+    font-size: 15px;
+    line-height: 44px;
+}
+.toolbar-l .btn{
+    float: left;
+}
+.baidu-btn {
+    border: 0;
+    background: url(http://ns14.bdstatic.com//static/news/webapp/webappandroid/img/bg-new-toolbar_6e9bc53.png) center 4px no-repeat;
+    background-size: 40px 500px;
+    -webkit-background-size: 40px 500px;
+}
+.user-home{
+    margin-left: 10px;
+    border: 0;
+    background: url(http://ns14.bdstatic.com//static/news/webapp/webappandroid/img/bg-new-toolbar_6e9bc53.png) center -463px no-repeat;
+    background-size: 40px 500px;
+    -webkit-background-size: 40px 500px;
+}
+/*工具栏右边*/
+.toolbar-r{
+    top: 0;
+    right: 0;
+}
+.toolbar-r .btn{
+    float: left;
+}
+.baidu-search{
+    margin-right: 10px;
+    border: 0;
+    background: url(http://ns14.bdstatic.com//static/news/webapp/webappandroid/img/bg-new-toolbar_6e9bc53.png)  center -162px no-repeat;
+    background-size: 40px 500px;
+    -webkit-background-size: 40px 500px;
+}
+.baidu-add{
+    border: 0;
+    background: url(http://ns14.bdstatic.com//static/news/webapp/webappandroid/img/bg-new-toolbar_6e9bc53.png)   center -107px no-repeat;
+    background-size: 40px 500px;
+    -webkit-background-size: 40px 500px;
+}
+/*分割线*/
+#index-nav .divider{
+    height: 1px;
+    margin: 0 auto;
+    background-color: #5dabf0;
+}
+.nav-content{
+    background:  #3e98f0 ;
+    height: 33px;
+}
+/*按钮*/
+.nav-content ul{
+    text-align: center;
+}
+.nav-content ul li{
+    float: left;
+    width: 25%;
+    height: 33px;
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}
