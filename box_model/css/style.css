@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*标准盒子*/
+.diazi {
+    background-color: darkgray;
+    width: 130px;
+    height: 130px;
+    margin: 80px;
+    float: left;
+}
+
+.xiehe {
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 5px dashed darkred;
+}
+
+.xiezi {
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+}
+
+/*怪异盒子*/
+.special {
+    float: left;
+}
+
+.xiehe1 {
+    background-color: aquamarine;
+    width: 130px;
+    height: 130px;
+    padding: 10px;
+    border: 5px solid darkred;
+    margin: 80px;
+    box-sizing: border-box;
+}
+
+.xiezi1 {
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+}
+
+/*分栏*/
+.col {
+    -webkit-column-count: 3;
+    -webkit-column-rule-style: groove;
+}
+
+.con {
+    background-color: darkseagreen;
+    width: 500px;
+    height: 600px;
+    margin: 80px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+/*垂直分栏*/
+.con1 {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+
+/*水平分栏、排序*/
+.con2 {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+}
+
+.one {
+    background-color: darkseagreen;
+    height: 100px;
+    -webkit-flex: 1;
+    -webkit-order: 2;
+}
+
+.two {
+    background-color: burlywood;
+    height: 100px;
+    -webkit-flex: 1;
+    -webkit-order: 3;
+}
+
+.three {
+    background-color: cornflowerblue;
+    height: 100px;
+    -webkit-flex: 1;
+    -webkit-order: 1;
+}
