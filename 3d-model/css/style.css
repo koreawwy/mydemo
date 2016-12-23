@@ -1,0 +1,195 @@
+
+.stage {
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    perspective: 1000px;
+
+}
+
+.all {
+    margin: 200px auto;
+    position: relative;
+    width: 300px;
+    -webkit-transform: rotateX(-30deg) rotateY(-30deg);
+    -moz-transform:rotateX(-30deg) rotateY(-30deg);
+    -ms-transform:rotateX(-30deg) rotateY(-30deg);
+    transform: rotateX(-30deg) rotateY(-30deg);
+    -webkit-animation: my3D 3s ease infinite;
+    -moz-animation: my3D 3s ease infinite;
+    -o-animation: my3D 3s ease infinite;
+    animation: my3D 3s ease infinite;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 150px 150px;
+    -moz-transform-origin: 150px 150px;
+    -o-transform-origin: 150px 150px;
+    transform-origin: 150px 150px;
+}
+ /*立方体六个面*/
+.font, .back, .bottom, .left, .right, .top {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 0, 0, .1);
+    border: 1px solid #999;
+}
+
+.font {
+    -webkit-transform: translateZ(150px);
+    -moz-transform:translateZ(150px);
+    -ms-transform: translateZ(150px);
+    -o-transform: translateZ(150px);
+    transform: translateZ(150px);
+}
+
+.top {
+    -webkit-transform: rotateX(90deg) translateZ(150px);
+    -moz-transform: rotateX(90deg) translateZ(150px);
+    -ms-transform: rotateX(90deg) translateZ(150px);
+    -o-transform: rotateX(90deg) translateZ(150px);
+    transform: rotateX(90deg) translateZ(150px);
+}
+
+.right {
+    -webkit-transform: rotateY(90deg) translateZ(150px);
+    -moz-transform: rotateY(90deg) translateZ(150px);
+    -ms-transform: rotateY(90deg) translateZ(150px);
+    -o-transform: rotateY(90deg) translateZ(150px);
+    transform: rotateY(90deg) translateZ(150px);
+}
+
+.left {
+    -webkit-transform: rotateY(-90deg) translateZ(150px);
+    -moz-transform: rotateY(-90deg) translateZ(150px);
+    -ms-transform: rotateY(-90deg) translateZ(150px);
+    -o-transform: rotateY(-90deg) translateZ(150px);
+    transform: rotateY(-90deg) translateZ(150px);
+}
+
+.bottom {
+    -webkit-transform: rotateX(-90deg) translateZ(150px);
+    -moz-transform: rotateX(-90deg) translateZ(150px);
+    -ms-transform: rotateX(-90deg) translateZ(150px);
+    -o-transform: rotateX(-90deg) translateZ(150px);
+    transform: rotateX(-90deg) translateZ(150px);
+}
+
+.back {
+    -webkit-transform: rotateY(-180deg) translateZ(150px);
+    -moz-transform: rotateY(-180deg) translateZ(150px);
+    -ms-transform: rotateY(-180deg) translateZ(150px);
+    -o-transform: rotateY(-180deg) translateZ(150px);
+    transform: rotateY(-180deg) translateZ(150px);
+}
+
+@-webkit-keyframes my3D {
+    from　to {
+    }
+    15% {
+        -webkit-transform: rotateY(-90deg)
+    }
+    30% {
+        -webkit-transform: rotateY(-90deg) rotateZ(135deg)
+    }
+    50% {
+        -webkit-transform: rotateY(225deg) rotateZ(135deg)
+    }
+    66% {
+        -webkit-transform: rotateY(135deg) rotateX(135deg)
+    }
+    85% {
+        -webkit-transform: rotateX(135deg)
+    }
+
+}
+@-moz-keyframes my3D {
+    from　to {
+    }
+    15% {
+        -moz-transform: rotateY(-90deg)
+    }
+    30% {
+        -moz-transform: rotateY(-90deg) rotateZ(135deg)
+    }
+    50% {
+        -moz-transform: rotateY(225deg) rotateZ(135deg)
+    }
+    66% {
+        -moz-transform: rotateY(135deg) rotateX(135deg)
+    }
+    85% {
+        -moz-transform: rotateX(135deg)
+    }
+
+}
+@-ms-keyframes my3D {
+    from　to {
+    }
+    15% {
+        -ms-transform: rotateY(-90deg)
+    }
+    30% {
+        -ms-transform: rotateY(-90deg) rotateZ(135deg)
+    }
+    50% {
+        -ms-transform: rotateY(225deg) rotateZ(135deg)
+    }
+    66% {
+        -ms-transform: rotateY(135deg) rotateX(135deg)
+    }
+    85% {
+        -ms-transform: rotateX(135deg)
+    }
+
+}
+@-o-keyframes my3D {
+    from　to {
+    }
+    15% {
+        -o-transform: rotateY(-90deg)
+    }
+    30% {
+        -o-transform: rotateY(-90deg) rotateZ(135deg)
+    }
+    50% {
+        -o-transform: rotateY(225deg) rotateZ(135deg)
+    }
+    66% {
+        -o-transform: rotateY(135deg) rotateX(135deg)
+    }
+    85% {
+        -o-transform: rotateX(135deg)
+    }
+
+}
+/*每个面里面的九个DIV*/
+.q, .h, .y, .z, .s, .x {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 20px;
+}
+
+.q {
+    background-color: #EBD95C;
+}
+
+.h {
+    background-color: #6182C6;
+}
+
+.y {
+    background-color: #65D381;
+}
+
+.z {
+    background-color: #AB48D3;
+}
+
+.s {
+    background-color: #48470B;
+}
+
+.x {
+    background-color: #E8161C;
+}
