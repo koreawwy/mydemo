@@ -1,0 +1,132 @@
+/*定义盒子类型*/
+@mixin boxSize{
+    $box-sizing:border-box;
+     box-sizing: $box-sizing;
+    -webkit-box-sizing: $box-sizing;
+    -moz-box-sizing: $box-sizing;
+    -ms-box-sizing: $box-sizing;
+    -o-box-sizing: $box-sizing;
+}
+#header{
+     min-height: 70px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    .wrap{
+         width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    span{
+    display:block;
+    }
+    .header-ad{
+       width: 160px;
+    height: 50px;
+    float: left;
+    margin-left: 20px;
+    }
+     .logo{
+       float: left;
+    width: 113px;
+    margin-top: 5px;
+    }
+    .search{
+     position: absolute;
+    left: 50%;
+    top: 20px;
+    margin: 0 0 0 -190px;
+    width: 380px;
+    height: 38px;
+    border: 1px solid #e4e4e4;
+    @include boxSize;
+    .headsearch{
+         width: 314px;
+         height: 36px;
+     .search-text{
+     padding: 9px 150px 9px 2px;
+    border: 0;
+    line-height: 18px;
+    color: #333;
+    background: #fff;
+    font-size: 12px;
+    text-align: left;
+    outline: none;
+     }
+     .search-btn{
+        position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 40px;
+    height: 38px;
+    border: 1px solid #e0e0e0;
+    color: #6d6d6d;
+    background: url(http://s1.jikexueyuan.com/common/images/topsearch-icon_e1f5df2.png) center center no-repeat;
+    cursor: pointer;
+    &:hover{
+           border: 1px solid #35b558;
+    background: #35b558 url(http://s1.jikexueyuan.com/common/images/topsearch-icon2_8c8d8b0.png) center center no-repeat !important;
+     }
+    }
+    .hot-words{
+        position: absolute;
+    top: 9px;
+    right: 48px;
+    font-size: 13px;
+    a{
+        display: inline-block;
+    padding: 1px 3px;
+    margin-left: 5px;
+    color: gray;
+    background: #f3f3f3;
+    text-decoration: none;
+    &:hover{
+       background-color: #c0c0c0;
+    color: #000;
+    }
+    }
+    }
+    }
+    }
+    .loginbox{
+       width: 242px;
+    height: 50px;
+    float: right;
+    text-align: right;
+    line-height: 50px;
+    font-size: 12px;
+    color: #333;
+    display: inline-block;
+    @include boxSize;
+    margin-left: 147px;
+    .msg{
+    img{
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    width: 16px;
+    height: 15px;
+    position: relative;
+    margin-top: 20px;
+    }
+    }
+    .em1{
+     float: left;
+    margin-left: 11px;
+    margin-top: 2px;
+    }
+    .em2{
+      float: left;
+    margin-left: 10px;
+    margin-top: 2px;
+    }
+    a{
+       text-decoration: none;
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+    color: #000;
+    margin-top: 3px;
+    }
+    }
+    }
+}

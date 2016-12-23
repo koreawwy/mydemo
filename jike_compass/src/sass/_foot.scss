@@ -1,0 +1,171 @@
+#footer{
+      min-width: 1000px;
+    margin-top: 30px;
+    .jkinfor{
+       background: #fafafa;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #e4e4e4;
+    margin-top: 135px;
+    .jkinfor-h{
+    width: 1112px;
+    margin: 7px auto;
+    min-height: 270px;
+    .tel{
+     width: 200px;
+    float: left;
+    min-height: 226px;
+    border-left: 1px solid #E4E4E4;
+    padding: 20px 0 0 40px;
+    z-index: -10;
+    .jktxt{
+     font-size: 15px;
+    color: #35b558;
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 500;
+    }
+    .share{
+    margin-top: 15px;
+    }
+    .kefu-online{
+    margin-top: 15px;
+    padding-left: 35px;
+    }
+    .app-download{
+      height: 84px;
+      a>div{
+      &:hover{
+      color: #35b550;
+      }
+      }
+      img{
+       display: block;
+    float: left;
+    margin-right: 15px;
+      }
+    }
+    }
+    dl{
+       width: 185px;
+    padding-left: 10px;
+    color: gray;
+    margin: 25px 0;
+    float: left;
+    border-left: 1px solid #E4E4E4;
+    min-height: 175px;
+    dt{
+     font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    margin-left: 20px;
+    }
+    dd{
+    font-size: 12px;
+    margin-top: 10px;
+    a{
+    &:hover{
+     color: #35b550;
+    }
+    }
+    }
+    }
+    a{
+    color: gray;
+    padding-left: 5px;
+    text-decoration: none;
+    }
+    }
+    }
+}
+.tel{
+    .share{
+    a{
+     background: url(http://s1.jikexueyuan.com/common/images/icon_7f8b929.png) -23px 0 no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    }
+    .sina-icon{
+    ackground-position: -21px 0;
+    }
+    .tieba-icon{
+    background-position: -145px 0;
+    }
+    .qq-icon{
+     background-position: -19px -82px;
+      img{
+     position: absolute;
+    bottom: 32px;
+    left: -48px;
+    z-index: 200;
+    display: none;
+     }
+     &:hover{
+     .weinxinpop{
+     display:block;
+     }
+     }
+     }
+    }
+    }
+
+.kefu-online{
+     margin-top: 15px;
+    padding-left: 35px;
+    a{
+     display: block;
+    padding: 13px;
+    float: left;
+    &:hover{
+    h5{
+     color: #35b550;
+    }
+    p{
+     color: #35b550;
+    }
+    }
+    }
+    .kefu-icon{
+    .online{
+    background-position: 0 0;
+    }
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: -40px;
+    background: url(http://s1.jikexueyuan.com/common/images/kefu_8edc734.png) no-repeat -40px 0/80px 40px;
+    }
+    h5{
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 2px;
+    line-height: 22px;
+    padding-left: 5px;
+    font-weight: 400;
+    }
+    p{
+      color: gray;
+    font-size: 12px;
+    padding-left: 5px;
+    }
+}
+.copyright{
+     font-size: 12px;
+    color: #999;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    padding: 20px;
+    a{
+     color: #999;
+    }
+    span{
+      font-weight: 400;
+    }
+    a{
+     text-decoration: none;
+    }
+}
