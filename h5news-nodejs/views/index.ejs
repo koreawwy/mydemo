@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>新闻后台管理界面</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">新闻管理</a></li>
+                    <li><a href="news">新闻主页</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">返回</a></li>
+                    <li><a href="#">Admin</a></li>
+                    <li><a href="#">退出</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 栅格系统 -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- 左侧的导航栏 -->
+            <div class="col-md-2">
+                <ul id="main-nav" class="main-nav nav nav-tabs nav-stacked" style="">
+                    <li>
+                        <a href="#systemSetting" class="nav-header collapsed" data-toggle="collapse">新闻管理
+
+                        </a>
+                        <ul id="systemSetting" class="nav nav-list secondmenu " style="height: 0px;">
+                            <li class="click-data" value="tuijian"><a href="#"><i class="glyphicon glyphicon-user"></i>推荐</a></li>
+                            <li class="click-data" value="baijia"><a href="#"><i class="glyphicon glyphicon-th-list"></i>百家</a></li>
+                            <li class="click-data" value="bendi"><a href="#"><i class="glyphicon glyphicon-asterisk"></i>本地</a></li>
+                            <li class="click-data" value="more"><a href="#"><i class="glyphicon glyphicon-edit"></i>更多</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- 右侧表格系统 -->
+            <div class="col-md-10">
+                <h4 id="location">首页</h4>
+                <input type='button' id="addBtn-face" class='float-right btn btn-info' value='添加'>
+                <hr/>
+                <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>标题</th>
+                            <th>时间</th>
+                            <th>图片</th>
+                            <th>内容</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody id="data">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- 三个弹框 -->
+        <div id="modify">
+            <p id="mdfInfo">请修改信息</p>
+            <input type='text' readonly name='newsId' id="mdfId">
+            <input type='text' readonly name='tableName' id="mdfTable">
+            <h5>新闻标题：</h5>
+            <input type='text'  id="mdfTitle" class='full-width' name='newsTitle'>
+            <h5>图片路径：</h5>
+            <input type='text'  id="mdfImg" class='full-width' name='newsImg'>
+            <h5>新闻内容：</h5>
+            <textarea   id="mdfCon" class='full-width news-content'></textarea>
+            <input  id="mdfTime" type='date' name='addTime'>
+            <input type='submit' id="mdfUpDate" class='float-right btn btn-info' value='保存'>
+            <input type='button' id="mdfHide" class='float-right btn btn-info' value='取消'>
+        </div>
+        <div id="delete">
+            <label id="info"></label>
+            <input type='button' id="deleteBtn" class='btn btn-btn-info' value='确定'>
+            <input type='button' id="cancelBtn" class='btn btn-info' value='取消'>
+        </div>
+        <div id="add">
+            <h5>新闻标题：</h5>
+            <input type='text' class='full-width' id="newsTitle">
+            <h5>图片路径：</h5>
+            <input type='text' class='full-width' id="newImg">
+            <h5>新闻内容：</h5>
+            <textarea class='full-width news-content' id='newsContent'></textarea>
+            <input type='date'  id="addTime">
+            <label id="addInfo">输入信息</label>
+            <input type='button' id="addSave" class='float-right btn btn-info'value='保存'>
+            <input type='button' id="addCancel" class='float-right btn btn-info' value='取消'>
+        </div>
+    </div>
+    <script type="text/javascript" src="./javascripts/jquery.js"></script>
+    <script type="text/javascript" src="./javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./javascripts/index.js"></script>
+</body>
+
+</html>
