@@ -1,0 +1,330 @@
+.w{
+    width: 960px;
+    margin: 0 auto;
+}
+.fontfam{
+    font-family: arial, "Microsoft YaHei";
+}
+/*我的订单*/
+#ordering{
+   padding: 30px 0;
+    height: 550px;
+}
+.left_con h2{
+    color: #1296db;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.left_con ul li{
+    height: 40px;
+    padding: 10px 0;
+    font-family: arial, "Microsoft YaHei";
+    color: #666;
+    cursor: pointer;
+}
+.left_con ul li:hover{
+    color: #1296db;
+}
+.left_ul1,.left_ul2{
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 20px;
+}
+.search{
+    padding: 20px 0;
+    width: 400px;
+    display: inline-block;
+}
+.search input{
+    width: 300px;
+    display: inline-block;
+}
+.search button{
+    position: absolute;
+}
+.pro_times{
+    float: right;
+}
+.pros{
+    min-height: 130px;
+    border: 1px solid #ddd;
+}
+.left_img{
+   display: inline-block;
+    padding: 5px;
+}
+.left_txt{
+    vertical-align: middle;
+    display: inline-block;
+    width: 227px;
+    font-size: 12px;
+}
+.left_txt p{
+  color: #1296db;
+}
+.who_buy{
+    display: inline-block;
+    width: 84px;
+    text-align: center;
+}
+.price-item{
+    display: inline-block;
+    width: 210px;
+    text-align: center;
+    color: #1296db;
+}
+.pro_way{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    position: relative;
+}
+.delpro_con{
+    position: absolute;
+    top: 22px;
+    right: -42px;
+    display: none;
+}
+.nopro {
+    width: 340px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.nopro img{
+    transform:rotate(-10deg);
+    -ms-transform:rotate(-10deg); 	/* IE 9 */
+    -moz-transform:rotate(-10deg); 	/* Firefox */
+    -webkit-transform:rotate(-10deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-10deg);
+    margin-right: 20px;
+}
+.nopro span{
+    font-family: arial, "Microsoft YaHei";
+    color: #666;
+}
+/*我的优惠券*/
+#order{
+    padding: 20px 0;
+}
+.order_title{
+    padding-top: 30px;
+    font-weight: bolder;
+}
+.cheap_p{
+    width: 300px;
+    height: 150px;
+    line-height: 150px;
+    margin: 0 auto;
+}
+.cheap_ul li{
+    list-style:circle ;
+    margin: 10px 0;
+}
+/*账户安全*/
+.upload{
+    height: 220px;
+    border-bottom: 1px solid #ddd;
+}
+.userId{
+    height: 60px;
+    line-height: 60px;
+}
+.oh_img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../images/oh.png);
+    background-size: cover;
+}
+.tel_check{
+    color: #666;
+    font-weight: bolder;
+}
+.tel_after{
+    font-size: 13px;
+    color: #666;
+    padding: 0 50px 0 10px;
+}
+.download{
+    padding: 20px 0;
+}
+.user_ol li{
+    margin: 10px 0;
+    list-style: decimal;
+}
+/*实名认证*/
+.up_realname{
+    height: 150px;
+    background-color: #ebebeb;
+    margin-top: 20px;
+}
+.down_realname{
+    padding: 10px;
+    font-family: arial, "Microsoft YaHei";
+}
+.real_img{
+    padding: 20px;
+}
+.saying_img{
+    padding: 5px;
+    float: left;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/saying.png);
+    background-size: cover;
+}
+.beizhu1{
+    margin: 5px 0;
+    color: #1296db;
+    font-size: 12px;
+}
+.beizhu2{
+    margin:5px 0;
+    font-size: 12px;
+}
+.blue{
+    color: #1296db;
+}
+.input_title{
+    width: 75px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+}
+.input_text{
+    display: inline-block;
+}
+.input_text input{
+    width: 380px;
+}
+.img_hold{
+    width: 160px;
+    height: 100px;
+    background-color: #ddd;
+    display: inline-block;
+    margin-right: 55px;
+    position: relative;
+    text-align: center;
+}
+.filebtn{
+    margin-top: 35px;
+}
+.fileimg1,.fileimg2{
+    position: absolute;
+    left: 0;
+    width: 160px;
+    height: 100px;
+    display: none;
+    z-index: 1;
+}
+.imgbtn{
+    position: absolute;
+    left: 30px;
+    bottom: 3px;
+    display: none;
+    z-index: 2;
+}
+.eg{
+    width: 60px;
+    height: 70px;
+    text-align: center;
+   display: inline-block;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.eg_img1{
+    width: 61px;
+    height: 38px;
+    display: inline-block;
+    background: url("../images/idword.jpg") no-repeat 0 -180px;
+}
+.eg_img2{
+    width: 61px;
+    height: 38px;
+    display: inline-block;
+    background: url("../images/idword.jpg") no-repeat -63px -180px;
+}
+#approvebtn{
+    width: 100px;
+    margin-top: 30px;
+}
+.text_div{
+    margin: 10px 0;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+.text_div p{
+    font-size: 12px;
+    color: #666;
+    line-height: 22px;
+}
+/*收货地址*/
+.myaddress{
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    margin-bottom: 5px;
+}
+.add{
+    width: 128px;
+    height: 62px;
+    color: #666666;
+}
+.form_sel{
+  position: absolute;
+}
+.select2{
+    left: 177px;
+}
+.select3{
+    left: 290px;
+}
+.inadd{
+    width: 500px;
+    color: #666666;
+}
+.oldtable{
+    border: 1px solid #ddd;
+    margin: 10px;
+}
+.small-item{
+    font-size: 12px;
+    color: #666;
+}
+.old_ul{
+    height: 30px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #ddd;
+}
+.old_ul li{
+    float: left;
+    width: 155px;
+    line-height: 12px;
+    text-align: center;
+    color: #666666;
+}
+.old_add{
+    padding: 10px;
+    min-height: 50px;
+}
+.old_add  li{
+    float: left;
+    width: 155px;
+    line-height: 15px;
+    text-align: center;
+    color: #666666;
+}
+.btn_con{
+    position: relative;
+}
+.checkbtn{
+    position: absolute;
+    top: -3px;
+    right: -57px;
+    display: none;
+}
+/*售后管理*/
+#buyafter .nopro{
+    padding: 60px 0;
+}

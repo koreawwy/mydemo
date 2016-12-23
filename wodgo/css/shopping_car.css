@@ -1,0 +1,283 @@
+
+/*shopping_car the 1st*/
+#shop_con{
+    padding: 30px;
+}
+#shop_first{
+    width: 400px;
+    margin: 0 auto;
+}
+.img_con{
+    float: left;
+    padding: 10px;
+    margin-right: 50px;
+}
+.first_text{
+    padding: 20px;
+}
+.text_one{
+    font-family: arial, "Microsoft YaHei";
+    margin-bottom: 15px;
+    color: #666;
+    text-align: left;
+    font-size: 18px;
+}
+/*shopping_car the 2nd*/
+.w{
+    width: 960px;
+    margin: 0 auto;
+}
+#second_tab{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.history_con{
+    width: 900px;
+    margin: 0 auto;
+    padding: 5px;
+    min-height: 218px;
+}
+.history_con1{
+   width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+.history_img{
+    border: 1px solid #ddd;
+    width: 85px;
+    height: 105px;
+    display: block;
+}
+.pro_title,.pro_size{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.pro_size{
+    font-size: 12px;
+    display: block;
+    font-family: arial, "Microsoft YaHei";
+}
+.m-price{
+    margin-right: 10px;
+    color: #1296db;
+    ont-size: 12px;
+}
+.market-price{
+    color: #999;
+    font-size: 12px;
+}
+.newbtn{
+    padding: 4px 12px;
+    font-size: 10px;
+}
+.history_con2{
+    width: 120px;
+    float: left;
+}
+/*shopping_car the 3rd*/
+#shop_third{
+    margin-top: 30px;
+}
+#rightBtn{
+    right: 0;
+    left: auto;
+}
+.title{
+    text-align: center;
+    display: block;
+    font-family: arial, "Microsoft YaHei";
+}
+/*shopping now*/
+.shopping_first{
+    padding: 10px;
+    margin: 20px 0;
+}
+.shopping_title{
+    font-size: 16px;
+    font-weight: bolder;
+    color: #1296db;
+    margin-right: 5px;
+}
+.sep{
+    font-size: 16px;
+    color: #cccccc;
+}
+.shopping_text{
+    margin-left: 10px;
+    font-family: arial, "Microsoft YaHei";
+}
+.shopping_second{
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    position: relative;
+    min-height: 137px;
+    margin-bottom: 20px;
+}
+.second1{
+    height: 40px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.second1_text{
+    font-size: 16px;
+    color: #1296db;
+    font-family: arial, "Microsoft YaHei";
+    display: inline-block;
+    width: 505px;
+    float: left;
+}
+.second2{
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    height: 125px;
+}
+.second3{
+    padding: 10px;
+}
+.second2_left{
+    position: relative;
+}
+.second1_ul li{
+    float: left;
+    width: 108px;
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+}
+.left_txt{
+    display: inline-block;
+    width: 402px;
+}
+.left_img{
+    display: inline-block;
+}
+.left_img img{
+    padding: 10px;
+}
+.left_title{
+    width: 245px;
+    display: block;
+    padding: 10px 0;
+    font-size: 12px;
+    color: #666;
+}
+.left_size{
+    font-size: 12px;
+    color: #666;
+}
+.price-item{
+    width: 120px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.block{
+    display: block;
+}
+.amount-num {
+    position: relative;
+    padding: 3px 0;
+    width: 28px;
+    height: 27px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+.amount-num input{
+    width: 28px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    color: #666;
+    background-color: #fff;
+    font-family: 'Microsoft Yahei';
+    border: none;
+}
+.inline{
+    display: inline-block;
+}
+.leftbtn{
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #ddd;
+    position: absolute;
+    left: 20px;
+    top: 0;
+}
+.rightbtn{
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #ddd;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+.last-item1{
+    width: 80px;
+    position: absolute;
+    top: 45px;
+}
+.last-item2{
+    top: 45px;
+    width: 95px;
+    position: absolute;
+    text-align: center;
+    right: 20px;
+    cursor: pointer;
+}
+.last-item2 .checkbtn{
+    display: none;
+}
+.charge{
+    display: inline-block;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    padding: 3px 5px;
+    background-color: #f93;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.label-text{
+   font-size: 12px;
+    font-family: arial, "Microsoft YaHei";
+}
+/*make cheap*/
+#cheap{
+    color: #1296db;
+    font-family: arial, "Microsoft YaHei";
+    cursor: pointer;
+}
+.cheap_input input{
+    width: 220px;
+    display: inline-block;
+}
+.cheap_input button{
+    position: absolute;
+}
+.single{
+    color: #1296db;
+    position: absolute;
+    top: 13px;
+}
+.total{
+    width: 200px;
+    text-align: center;
+    display: initial;
+}
+.total p{
+    font-family: arial, "Microsoft YaHei";
+}
+.blue{
+    color: #1296db;
+}
+.u-yen{
+    margin-left: 20px;
+}
+.shopping{
+    display: none;
+}

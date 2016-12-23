@@ -1,0 +1,108 @@
+#navStyle{
+	background-color: #1296db;
+
+}
+#navStyle>.collapse{
+	margin-left: 50px;
+}
+#nav{
+	width: 100%;
+}
+#nav .navbar{
+	margin-bottom: 0px;
+	border: 0px;
+}
+#navStyle a{
+	color: #fff;
+	font-size: 16px;
+	font-family: "幼圆";
+	font-weight: 900;
+}
+#navStyle button{
+	color: #1296db;
+}
+#newGoods,#newSelect{
+	width: 72%;
+	margin:25px auto;
+	font-family: "黑体";
+}
+#newGoods .thumbnail{
+	border: 1px solid #fff;
+}
+#newSelect .row{
+	border: 1px solid #fff;
+	border-radius: 5px;
+	overflow: hidden;
+	margin:20px 0px;
+}
+#newSelect .col-md-8{
+	padding: 0;
+}
+#head{
+	height:200px;
+}	
+#scrollTop{
+	position: fixed;
+	font-family: "幼圆";
+	font-size: 18px;
+	font-weight: 900;
+	color: #fff;
+	right: 50px;
+	top: 7px;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	display: none;
+}
+.priceSign{
+	margin-left: 25px;
+	font-size: 19px;
+	font-family: "Arial";
+	color: #1296db;
+}
+.col-md-4 h3,.col-md-4 p{
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.col-md-4 p{
+	font-size: 18px;
+	font-family: "幼圆";
+	margin-bottom: 20px;
+}
+.caption h5{
+	height: 30px;
+	margin-bottom: 15px;
+}
+.newSelBox{
+	position: relative;
+	width: 75%;
+	margin: 20px auto;
+	border-radius: 5px;
+	overflow: hidden;
+	border: 2px solid #ccc;
+}
+.newSelTitle{
+	border-top: 2px solid #ccc;
+	padding: 10px 10px;
+	font-family: arial, "Microsoft YaHei";
+	font-size: 18px;
+	color: #666;
+}
+.newSelBox>.btn{
+	position: absolute;
+	bottom: 70px;
+	right: 10px;
+	background-color: #1296db;
+	font-size: 20px;
+	display: none;
+}
+.newSel_price{
+	position: absolute;
+	right: 15px;
+	bottom: 5px;
+	font-size: 25px;
+	color: #1296db;
+	text-shadow: 1px 1px 2px #000;
+	font-style: italic;
+	font-family: "Arial";
+}

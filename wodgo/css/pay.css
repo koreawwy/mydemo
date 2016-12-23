@@ -1,0 +1,101 @@
+.w{
+    width: 960px;
+    margin: 0 auto;
+}
+#procheck{
+    padding: 30px;
+}
+.fontfam{
+    font-family: arial, "Microsoft YaHei";
+}
+.pro_title{
+    font-weight: bolder;
+}
+.pro_con{
+    min-height: 100px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+.title_ul{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 20px;
+    background-color: #ddd;
+    color: #1296db;
+}
+.other_li{
+    float: left;
+    width: 140px;
+    text-align: center;
+}
+.first_li{
+    width: 450px;
+    float: left;
+    text-align: center;
+}
+.pros_first{
+   width: 440px;
+   margin:15px;
+    float: left;
+}
+.pros_text{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    width: 350px;
+    line-height: 12px;
+}
+.pros_last{
+    float: left;
+    width: 140px;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
+.blue{
+    color: #1296db;
+    font-weight: bolder;
+}
+.pay_way{
+    height: 175px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.pay_con{
+    height: 30px;
+    background-color: #ddd;
+    color: #1296db;
+    line-height: 30px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.checkbox_con{
+    padding: 10px;
+    position: relative;
+}
+.pay_right{
+    height: 80px;
+    float: right;
+    margin: 0 10px;
+}
+.money{
+    margin: 6px;
+}
+.money h4{
+    display: inline-block;
+}
+.pay_after{
+    height: 203px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.account{
+    position: absolute;
+    right: -2px;
+    top: 160px;
+}
+.account .btn{
+    padding: 10px 135px;
+}

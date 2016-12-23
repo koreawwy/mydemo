@@ -1,0 +1,330 @@
+<!--我的订单-->
+<div id="order">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#total" role="tab" data-toggle="tab" class="order_title fontfam">所有订单</a></li>
+        <li role="presentation"><a href="#pay" role="tab" data-toggle="tab">待付款</a></li>
+        <li role="presentation"><a href="#send" role="tab" data-toggle="tab">待发货</a></li>
+        <li role="presentation"><a href="#get" role="tab" data-toggle="tab">待收货</a></li>
+        <li role="presentation"><a href="#say" role="tab" data-toggle="tab">待评价</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="total">
+            <div class="search">
+                <input class=" form-control"  type="text" placeholder="输入商品订单号" autocomplete="off" >
+                <button type="button" class="btn btn-info" >搜索</button>
+            </div>
+            <div class="pro_times form-group">
+                    <label for="time">下单时间:</label>
+                    <select class="form-control" id="time">
+                        <option>近三个月</option>
+                        <option>近六个月</option>
+                        <option>一年内</option>
+                        <option>三年内</option>
+                    </select>
+            </div>
+            <div class="pros fontfam">
+                <ul class="old_ul">
+                    <li style="width: 270px">订单详情</li>
+                    <li>收货人</li>
+                    <li>金额</li>
+                    <li>操作</li>
+                </ul>
+                <div class="left_img"><img src="../images/history1.jpg" width="75" height="95"> </div>
+                <div class="left_txt">
+                    <p>订单号：<span>45125863336654</span></p>
+                    <span class="left_title">进口优选奶粉混合专场-贝拉米、特福芬 - 贝拉米 有机幼儿配方奶粉3段（1-3岁）900...</span>
+                </div>
+                <div class="who_buy">
+                    <span>陈小姐</span>
+                </div>
+                <div class="price-item">
+                    <span class="m-price">
+                        <span class="u-yen">¥</span>
+                        <strong class="u-price">598</strong>
+                    </span>
+                </div>
+                <div class="pro_way ">
+                   <a href="#">立即购买</a>
+                    <a href="javascript:void (0)" class="delpro">删除</a>
+                    <span class="delpro_con"> <button type="button" class="btn btn-info">确定删除?</button></span>
+                </div>
+            </div>
+            <div class="nopro" style="display: none">
+                <img src="../images/crying.png" width="100" height="100">
+                <span>oh!no~ 您当前没有任何订单哦~</span>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="pay">
+            <div class="search">
+                <input class=" form-control"  type="text" placeholder="输入商品订单号" autocomplete="off" >
+                <button type="button" class="btn btn-info" >搜索</button>
+            </div>
+            <div class="nopro">
+                <img src="../images/crying.png" width="100" height="100">
+                <span>oh!no~ 您当前没有待付款订单哦~</span>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="send">
+            <div class="search">
+                <input class=" form-control"  type="text" placeholder="输入商品订单号" autocomplete="off" >
+                <button type="button" class="btn btn-info" >搜索</button>
+            </div>
+            <div class="nopro">
+                <img src="../images/crying.png" width="100" height="100">
+                <span>oh!no~ 您当前没有待发货订单哦~</span>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="get">
+            <div class="search">
+                <input class=" form-control"  type="text" placeholder="输入商品订单号" autocomplete="off" >
+                <button type="button" class="btn btn-info" >搜索</button>
+            </div>
+            <div class="nopro">
+                <img src="../images/crying.png" width="100" height="100">
+                <span>oh!no~ 您当前没有待收货订单哦~</span>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="say">
+            <div class="search">
+                <input class=" form-control"  type="text" placeholder="输入商品订单号" autocomplete="off" >
+                <button type="button" class="btn btn-info" >搜索</button>
+            </div>
+            <div class="nopro">
+                <img src="../images/crying.png" width="100" height="100">
+                <span>oh!no~ 您当前没有待评价订单哦~</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--我的优惠券-->
+<div id="cheap-item">
+    <h4 class="order_title fontfam">我的优惠券</h4>
+    <div class="search">
+        <input class=" form-control"  type="text" placeholder="请输入兑换码" autocomplete="off" >
+        <button type="button" class="btn btn-info" >兑换</button>
+    </div>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#useing" role="tab" data-toggle="tab">可使用的优惠券</a></li>
+        <li role="presentation"><a href="#used" role="tab" data-toggle="tab">已使用的优惠券</a></li>
+        <li role="presentation"><a href="#lose" role="tab" data-toggle="tab">已失效的优惠券</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="useing">
+            <p class="cheap_p fontfam">您还没有可使用优惠券哦~</p>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="used">
+            <p class="cheap_p fontfam">您还没有已使用优惠券哦~</p>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="lose">
+            <p class="cheap_p fontfam">您还没有已失效优惠券哦~</p>
+        </div>
+    </div>
+    <h4 class="order_title">优惠券说明</h4>
+    <ul class="cheap_ul">
+        <li>优惠券仅限购买实物类的商品使用，虚拟商品、极少数特殊商品无法使用，请以下单时为准</li>
+        <li>满减优惠券必须满足一定的商品金额(不含税费)才能使用</li>
+        <li>优惠券仅限在有效期内使用，过期则无法使用。请珍惜您的每张优惠券哦</li>
+        <li>若一张优惠券存在多个使用规则，则必须满足全部规则才可使用该优惠券</li>
+    </ul>
+</div>
+<!--账户安全-->
+<div id="user_security">
+    <div class="upload">
+        <h4 class="order_title fontfam">账户安全</h4>
+        <p class="userId fontfam">用户ID：<span>122635966545863</span></p>
+        <i class="oh_img"></i>
+        <span class="tel_check fontfam">手机绑定</span>
+        <span class="tel_after fontfam">绑定后可保证账户安全</span>
+        <button type="button" class="btn btn-info" >立即绑定</button>
+    </div>
+    <div class="download">
+        <p class="tel_check fontfam">温馨提示：</p>
+        <ol class="user_ol fontfam">
+            <li>一个手机号仅限绑定一个考拉账号。</li>
+            <li>为保证账户安全，手机号绑定后无法解除绑定，可以更换绑定。</li>
+            <li>绑定或更换绑定手机号后3个月内不能再次更换，3个月后可以自行更换绑定。</li>
+            <li>遇到其他问题？请联系<a href="#">世界购客服</a> 。</li>
+        </ol>
+    </div>
+</div>
+<!--实名认证-->
+<div id="userid">
+    <h4 class="order_title fontfam">我的实名认证</h4>
+    <div class="up_realname">
+        <div class="real_img">
+            <i class="saying_img"></i>
+            <p class="tel_check fontfam">根据海关规定，购买跨境商品需要办理清关手续，请您配合进行实名认证，以确保您购买的商品顺利通过海关检查。<br>
+            </p>
+            <span class="beizhu1 fontfam">（世界购承诺所传身份证明只用于办理跨境商品的清关手续，不作他途使用，其他任何人均无法查看。）</span>
+            <p class="tel_check fontfam">实名认证的规则：</p>
+            <p class="beizhu2 fontfam">购买跨境商品需填写考拉账号注册人的真实姓名及身份证号码，部分商品下单时需提供收货人的实名信息（含身份证照片），具体请以下单时的提示为准。</p>
+        </div>
+    </div>
+    <div class="down_realname">
+       <form role="form">
+           <div class="form-group" class="user_form">
+                   <label for="reallyname" class="input_title">
+                       <span class="fontfam"><span class="blue">*</span>真实姓名:</span>
+                   </label>
+                  <div class="input_text">
+                      <input type="text" class="form-control" placeholder="请填写真实姓名" id="reallyname">
+                  </div>
+           </div>
+           <div class="form-group" class="user_form">
+                  <label for="usernum" class="input_title">
+                      <span class="fontfam"><span class="blue">*</span>身份证:</span>
+                  </label>
+               <div class="input_text">
+                   <input type="text" class="form-control" placeholder="请填写真实姓名所对的身份证号码" id="usernum" autocomplete="off">
+               </div>
+           </div>
+           <div class="form-group" class="user_form">
+               <div class="input_title">
+                  <label class="input_title">
+                      <span class="fontfam"><span class="blue">*</span>上传照片:</span>
+                  </label>
+               </div>
+               <div class="idimg">
+                   <div class="img_hold">
+                       <input type="file" style="display: none" id="upbtn" onchange="fileLoad(this,'.fileimg1','.delbtn1')"/>
+                       <button type="button" class="btn filebtn" onclick="document.getElementById('upbtn').click()">+正面</button>
+                       <img src="" class="fileimg1">
+                       <div class="imgbtn">
+                           <a href="#" class="newfile" onclick="document.getElementById('upbtn').click()">重新上传</a>
+                           <a href="#" class="delbtn1">删除</a>
+                       </div>
+                   </div>
+                   <div class="img_hold">
+                       <input type="file" style="display: none" id="downbtn" onchange="fileLoad(this,'.fileimg2','.delbtn2')"/>
+                       <button type="button" class="btn filebtn" onclick="document.getElementById('downbtn').click()">+反面</button>
+                       <img src="" class="fileimg2">
+                       <div class="imgbtn">
+                           <a href="#" onclick="document.getElementById('downbtn').click()">重新上传</a>
+                           <a href="#" class="delbtn2">删除</a>
+                       </div>
+                   </div>
+               </div>
+               <div class="example">
+                   <div class="eg">
+                       <span>示例</span>
+                       <span class="eg_img1"></span>
+                   </div>
+                   <div class="eg">
+                       <span>示例</span>
+                       <span class="eg_img2"></span>
+                   </div>
+               </div>
+               <p >注：</p>
+               <p >1. 需上传清晰的身份证正面、反面共2张照片</p>
+               <p >2. 照片不超过5MB，支持格式jpg，jpeg，png</p>
+               <button type="button" class="btn btn-info" id="approvebtn" >认证</button>
+           </div>
+       </form>
+    </div>
+    <h4 class="order_title fontfam">常见问题</h4>
+    <div class="text_div fontfam">
+        <p>1、为什么要进行实名认证？</p>
+        <p>根据海关规定，购买跨境商品需进行实名认证，用于个人物品入境申报。为确保您购买的商品能够顺利办理清关手续，请配合提供实名信息，否则将无法正常发货哦！</p>
+        <p>2、实名认证必须要上传身份证照片吗？</p>
+        <p>根据海关要求，部分跨境商品清关时需提供收货人实名信息对身份证影印件进行校验，具体请以下单时提示为准。考拉会对您的个人信息做加密处理，不作他途使用，其他任何人均无法查看。</p>
+        <p>3、账户默认实名人是什么意思？</p>
+        <p>除部分需进行收货人实名的商品外，购买其他跨境商品时考拉将自动提供您“账户默认实名人”的实名信息给到海关做入境申报。海关将会将此笔订单的商品金额计入到该实名信息的个人年度交易20000元限额内。</p>
+        <p>4、海关20000元限额具体规则是什么？</p>
+        <p>根据《关于跨境电子商务零售进口税收政策的通知》，跨境电子商务零售进口商品的单次交易限值为人民币2000元，个人年度交易限值为人民币20000元。个人年度交易限额指您在全网各跨境平台购买的所有跨境商品在全年内累计金额不能超过20000元，超过限额海关有权进行退单处理。</p>
+    </div>
+</div>
+<!--收货地址-->
+<div id="address">
+    <h4 class="order_title fontfam myaddress">我的收货地址</h4>
+    <div class="oldadd">
+        <span class="tel_check fontfam">已保存收获地址</span>
+        <span class="small-item">（共<em>1</em>条）</span>
+        <div class="oldtable fontfam">
+            <ul class="old_ul">
+                <li>收货人</li>
+                <li>收货地址</li>
+                <li>联系电话</li>
+                <li>操作</li>
+            </ul>
+            <ul class="old_add">
+                <li>张三</li>
+                <li>广东省 深圳市 罗湖区 东佳大厦801</li>
+                <li>400-888-1291</li>
+                <li class="btn_con">
+                    <a href="javascript:void (0)" >修改</a>
+                    <span>|</span>
+                    <a href="javascript:void (0)" class="delbtn">删除</a>
+                    <span class="checkbtn"> <button type="button" class="btn btn-info" >确定删除?</button></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="newadd">
+        <span class="tel_check fontfam">新增收获地址</span>
+        <form role="form" class="myaddress">
+            <div class="form-group add fontfam">
+                <label for="Inputpro"><span class="blue ">*</span>所在地区:</label>
+                <div class="form_sel">
+                    <select class="form-control" id="Inputpro">
+                        <option >省/直辖市</option>
+                        <option>北京</option>
+                        <option >天津</option>
+                        <option >河北省</option>
+                        <option>山西省</option>
+                        <option>湖南省</option>
+                        <option>广东省</option>
+                        <option>广西壮族自治区</option>
+                        <option>哈尔滨</option>
+                    </select>
+                </div>
+              <div class="form_sel select2">
+                  <select class="form-control" >
+                      <option >--市级--</option>
+                      <option>北京</option>
+                      <option >天津</option>
+                      <option >桂林</option>
+                      <option>广州</option>
+                      <option>深圳</option>
+                      <option>上海</option>
+                  </select>
+              </div>
+                <div class="form_sel select3">
+                    <select class="form-control" >
+                        <option >--县级--</option>
+                        <option>普宁</option>
+                        <option >汕尾</option>
+                        <option >陆丰</option>
+                        <option>饶平</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group inadd fontfam">
+                <label for="inaddress"><span class="blue ">*</span>详细地址：</label>
+                <textarea  class="form-control" id="inaddress" placeholder="无需重复填写省市区，小于75个字" autocomplete="off"></textarea>
+            </div>
+            <div class="form-group  inadd fontfam">
+                <label for="realname"><span class="blue ">*</span>真实姓名：</label>
+                <input type="text"  class="form-control" id="realname" placeholder="不能为昵称、X先生、X小姐等，请使用真实姓名" autocomplete="off" />
+            </div>
+            <div class="form-group  inadd fontfam">
+                <label for="telephone"><span class="blue ">*</span>手机号码：</label>
+                <input type="tel"  class="form-control" id="telephone" placeholder="手机号码必须填" autocomplete="off" />
+            </div>
+            <button type="submit" class="btn btn-info">保存新地址</button>
+        </form>
+    </div>
+</div>
+<!--售后管理-->
+<div id="buyafter">
+    <h4 class="order_title fontfam ">售后管理</h4>
+    <div class="nopro">
+        <img src="../images/crying.png" width="100" height="100">
+        <span>当前无售后记录</span>
+    </div>
+</div>
