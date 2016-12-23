@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 页面头部*/
+header {
+    height: 200px;
+    min-width: 500px;
+    background-color: #D7CC9F;
+    text-align: left;
+    font-size: 60px;
+    text-indent: 20px;
+}
+
+/*页面中部*/
+article {
+    height: 600px;
+    overflow: hidden;
+}
+
+.inner {
+    margin: 0 100px 0 200px;
+}
+
+/* 页面尾部*/
+footer {
+    height: 60px;
+    background-color: #D7CC9F;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*文章中间*/
+article .middle {
+    background-color: #CC8E99;
+    margin-bottom: -10000px;
+    padding-bottom: 10000px;
+    float: left;
+    width: 100%;
+    margin-bottom: -10000px \9;
+    padding-bottom: 10000px \9;
+    overflow: hidden;
+}
+
+/* 文章左边*/
+article .left {
+    background-color: #B0CEB9;
+    float: left;
+    width: 200px;
+    margin-bottom: -10000px;
+    padding-bottom: 10000px;
+    margin-left: -100%;
+    margin-bottom: -10000px \9;
+    padding-bottom: 10000px \9;
+}
+
+/*文章右边*/
+article .right {
+    background-color: #B0CEB9;
+    float: left;
+    width: 100px;
+    margin-bottom: -10000px;
+    padding-bottom: 10000px;
+    margin-left: -100px;
+    margin-bottom: -10000px \9;
+    padding-bottom: 10000px \9;
+}
+
+/*文章段落*/
+.pp {
+    text-indent: 10px;
+    line-height: 25px;
+}
