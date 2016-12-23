@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#con .box{
+    position: relative;
+    float: left;
+}
+.box .box-hold{
+    padding: 12px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    -moz-box-shadow: 0 0 5px #999;
+    -ms-box-shadow: 0 0 5px #999;
+}
+.box-hold img{
+    width: 200px;
+    height: auto;
+    display: block;
+}
+.box-hold a{
+    text-decoration: none;
+    color: #000;
+}
