@@ -1,0 +1,120 @@
+body {
+    background-color: darkslateblue;
+    overflow: scroll;
+    margin: 0;
+}
+
+/*整个空白部分*/
+#hold {
+    width: 800px;
+    height: 2600px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+header a {
+    float: right;
+    margin: 80px 20px 0 0;
+    font-size: 13px;
+    color: red;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#imgg {
+    float: left;
+    margin: 15px 0 0 30px;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+table {
+    margin: 100px;
+    border-collapse: collapse;
+    border-color: darkgrey;
+    min-height: 2200px;
+}
+
+td {
+    font-size: small;
+}
+
+/*红色文字部分*/
+span {
+    color: red;
+}
+
+#wl a:hover {
+    color: red;
+}
+
+/*蓝色字体部分*/
+.blue {
+    color: blue;
+}
+
+.tdd {
+    background-color: lightsteelblue;
+}
+
+.pp {
+    float: left;
+    margin-left: 10px;
+    color: darkblue;
+}
+
+.head {
+    text-align: right;
+    border: 0;
+}
+
+input {
+    float: left;
+}
+
+.right {
+    text-align: left;
+}
+
+.name {
+    font-weight: bold;
+    text-align: left;
+}
+
+.over {
+    text-align: left;
+}
+
+.up {
+    text-align: left;
+    margin: -27px 5px 0 80px;
+}
+
+#but {
+    text-align: center;
+    margin: 0 300px;
+}
+
+/*尾部版权文字*/
+#foot {
+    text-align: center;
+}
+
+#foot p {
+    vertical-align: middle;
+    position: relative;
+    margin-bottom: 50px;
+}
